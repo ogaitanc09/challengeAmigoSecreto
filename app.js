@@ -26,4 +26,12 @@ function listaAmigos(){
     }
 }
 
-agregarAmigo();
+function sortearAmigo(){
+    if (amigos.length === 0){
+        alert('Ups, no hay amigos disponibles. Añade amigos para realizar el sorteo');
+    }else{
+        let sorteo = Math.floor(Math.random()*amigos.length);
+        let ganador = amigos[sorteo];
+        document.getElementById('resultado').innerHTML = `El ganador del sorteo es ${ganador}`;
+    }
+}
