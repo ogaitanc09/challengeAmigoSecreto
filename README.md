@@ -27,9 +27,9 @@ En este desafío, desarrollarás una aplicación que permite a los usuarios ingr
 
 ## 🎯 Cómo ejecutar el proyecto  
 
-1️⃣ Clona este repositorio:  https://github.com/ogaitanc09/challengeAmigoSecreto.git
+1️⃣ Clona este repositorio:  
    ```bash
-   git clone 
+   git clone https://github.com/ogaitanc09/challengeAmigoSecreto.git
    cd amigo-secreto
    ```  
 
